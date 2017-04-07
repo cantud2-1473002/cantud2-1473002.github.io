@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>My wedsite</title>
+    </head>
+    <body>
+            <h1>this is an h1 tag</h1>
+            <h2>this is an h2 tag</h2>
+
+            <p>this is paragraph tag</p>
+            <p>my favorite websites</p>
+            <ul>
+                    <li>
+                        <a href="http://www.google.com">google
+                    </a>
+                    </li>
+                    <li>
+                        <a href="http://www.Facebook.com">Facebook
+                    </a>
+                    </li>
+                    <li>list item 2</li>
+            </ul>
+            <a href="https://tse4.mm.bing.net/th?id=OIP.j_CN9Sk6GI6wMvty7gQ_twEsDh&pid=15.1&P=0&w=231&h=174">google
+                    </a></li>
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Delta_Upsilon_Member_Badge.svg/1079px-Delta_Upsilon_Member_Badge.svg.png"title="Delta Upsilon" style="width;100px;height;100px margin:5px">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.j_CN9Sk6GI6wMvty7gQ_twEsDh&pid=15.1&P=0&w=231&h=174"title="UW" style="width;200px;height;200px margin:5px">
+    </body>
+</html> 
