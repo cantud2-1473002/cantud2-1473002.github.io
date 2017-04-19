@@ -110,14 +110,74 @@
 			<input type="text" name="zip">
 		</div>
       	<div class="field">
-			<label>Any Felonies in the pass 5 years?:</label> 
+			<label>Any Felonies in the pass 10 years?:</label> 
 			<input type="radio" name="answer" value="yes"> Yes<br> <input type="radio" name="answer" value="no"> No>
+		</div>
+	    <div class="field">
+			<label>If yes how many years back?/ If no does not apply (select one) </label>
+			<ul>
+				<li><input type="checkbox" name="position_oY" value="one year ago">One year </li>
+				<li><input type="checkbox" name="position_tY" value="three years ago">three years</li>
+				<li><input type="checkbox" name="position_sY" value="seven years ago">seven years</li>
+				<li><input type="checkbox" name="position_tY" value="ten years ago">ten years</li>
+			</ul>
 		</div>
       <div class="field">
 			<label>SS:</label> 
 			<input type="text" name="SS">
 		</div>
-      
+	    <fieldset>
+		<legend>Availability</legend>
+		<div class="field">
+			<label>Are you legally able to be employed in this country?</label> 
+			<input type="radio" name="legal" value="yes">Yes
+			<input type="radio" name="legal" value="no">No
+		</div>
+		<div class="field">
+			<label>What type of position are you seeking? (check all that apply)</label>
+			<ul>
+				<li><input type="checkbox" name="position_pt" value="parttime">Part time</li>
+				<li><input type="checkbox" name="position_ft" value="fulltime">Full time</li>
+				
+			</ul>
+		</div>
+		<div class="field">
+			<label>Hours available</label>
+			<table>
+				<tr>
+					<td></td>
+					<th>Sun</th>
+					<th>Mon</th>
+					<th>Tue</th>
+					<th>Wed</th>
+					<th>Thu</th>
+					<th>Fri</th>
+					<th>Sat</th>
+				</tr>
+				<tr>
+					<th>From</th>
+					<td><input type="time" size="5" name="su_from"></td>
+					<td><input type="time" size="5" name="mo_from"></td>
+					<td><input type="time" size="5" name="tu_from"></td>
+					<td><input type="time" size="5" name="we_from"></td>
+					<td><input type="time" size="5" name="th_from"></td>
+					<td><input type="time" size="5" name="fr_from"></td>
+					<td><input type="time" size="5" name="sa_from"></td>
+				</tr>
+				<tr>
+					<th>Until</th>
+					<td><input type="time" size="5" name="su_until"></td>
+					<td><input type="time" size="5" name="mo_until"></td>
+					<td><input type="time" size="5" name="tu_until"></td>
+					<td><input type="time" size="5" name="we_until"></td>
+					<td><input type="time" size="5" name="th_until"></td>
+					<td><input type="time" size="5" name="fr_until"></td>
+					<td><input type="time" size="5" name="sa_until"></td>
+				</tr>
+			</table>
+		</div>
+	</fieldset>
+	
       
 	</fieldset>
 First name: <input type="text" name="firstname"><br> Last name: <input type="text" name="lastname">
